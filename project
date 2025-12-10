@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bridges & Bites</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: #000;
+    }
+
+    /* Background Image */
+    .hero {
+        height: 100vh;
+        width: 100%;
+        background-image: url('YOUR_IMAGE_FILE.jpg'); /* Replace with your file path */
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        /* 🔥 Pulsating Animation */
+        animation: pulse 3s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+        0%   { transform: scale(1); opacity: 1 }
+        50%  { transform: scale(1.03); opacity: .95 }
+        100% { transform: scale(1); opacity: 1 }
+    }
+
+    /* Bridge & Logo Text */
+    .logo {
+        text-align: center;
+        color: white;
+    }
+
+    .logo h1 {
+        font-size: 64px;
+        font-weight: 800;
+        margin: 20px 0 0 0;
+        letter-spacing: 2px;
+    }
+
+    .logo span {
+        color: #d4af37; /* gold */
+    }
+
+    /* Start Button */
+    .start-btn {
+        margin-top: 40px;
+        padding: 22px 40px;
+        background-color: #1a1a1a;
+        border-radius: 14px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.4);
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .start-btn h2 {
+        margin: 0;
+        color: #d4af37;
+        font-size: 28px;
+        letter-spacing: 3px;
+    }
+
+    .start-btn p {
+        margin: 5px 0 0 0;
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="hero">
+    <div class="logo">
+        <!-- Bridge Icon — use an SVG for the clean gold bridge -->
+        <svg width="380" height="120" viewBox="0 0 400 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 120 C150 -20 250 -20 390 120" stroke="#d4af37" stroke-width="14" fill="none"/>
+            <line x1="60" y1="120" x2="60" y2="50" stroke="#d4af37" stroke-width="10"/>
+            <line x1="120" y1="120" x2="120" y2="30" stroke="#d4af37" stroke-width="10"/>
+            <line x1="180" y1="120" x2="180" y2="20" stroke="#d4af37" stroke-width="10"/>
+            <line x1="240" y1="120" x2="240" y2="30" stroke="#d4af37" stroke-width="10"/>
+            <line x1="300" y1="120" x2="300" y2="50" stroke="#d4af37" stroke-width="10"/>
+        </svg>
+
+        <h1>BRIDGES<span>&</span>BITES</h1>
+    </div>
+
+    <div class="start-btn">
+        <h2>START HERE</h2>
+        <a href="!DOCTYPE html>">hv</a>
+
+        <p>EXPLORE YOUR NEXT BITE</p>
+    </div>
+</div>
+
+</body>
+</html>
+
